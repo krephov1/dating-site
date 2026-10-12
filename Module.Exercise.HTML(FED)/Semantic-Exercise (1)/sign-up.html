@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dating App</title>
+</head>
+
+<body>
+  <header>
+    <h1>Dating App</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="people.html">People</a>
+    <a href="sign-up.html">Sign up</a>
+  </nav>
+
+  <main>
+    <h2>Sign up!</h2>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Choose a username" required>
+
+      <label for="description">Self description:</label>
+      <textarea id="description" name="description" placeholder="Tell us about yourself" rows="5" required></textarea>
+
+      <label for="looking-for">What are you looking for?</label>
+      <select id="looking-for" name="looking-for" required>
+        <option value="" disabled selected>Choose an option</option>
+        <option value="friendship">Friendship</option>
+        <option value="dating">Dating</option>
+        <option value="relationship">A relationship</option>
+      </select>
+
+      <fieldset>
+        <legend>Maximum distance</legend>
+
+        <input type="radio" id="distance-5" name="distance" value="5" required>
+        <label for="distance-5">5 km</label>
+
+        <input type="radio" id="distance-10" name="distance" value="10">
+        <label for="distance-10">10 km</label>
+
+        <input type="radio" id="distance-25" name="distance" value="25">
+        <label for="distance-25">25 km</label>
+
+        <input type="radio" id="distance-50" name="distance" value="50">
+        <label for="distance-50">50 km</label>
+
+        <input type="radio" id="distance-100" name="distance" value="100">
+        <label for="distance-100">100 km</label>
+
+        <input type="radio" id="distance-200" name="distance" value="200">
+        <label for="distance-200">200 km</label>
+      </fieldset>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Choose a password" required>
+
+      <button type="submit">Sign up</button>
+    </form>
+    <p>Sign up for our dating app to meet new people.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 WINCJAPIE Dating App</p>
+  </footer>
+</body>
+
+</html>
